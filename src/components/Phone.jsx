@@ -8,6 +8,7 @@ const Phone = () => {
         <div>
             <h2>{phone.name}</h2>
             <img src={phone?.image} alt="" />
+            <p>{phone.description}</p>
         </div>
     );
 };
