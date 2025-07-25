@@ -9,6 +9,7 @@ const Phone = () => {
             <h2>{phone.name}</h2>
             <img src={phone?.image} alt="" />
             <p>{phone.description}</p>
+            <h2>{phone.price}</h2>
         </div>
     );
 };
